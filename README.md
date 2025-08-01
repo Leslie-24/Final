@@ -29,7 +29,7 @@ Traditional methods such as blacklists or manual reporting are often **reactive 
 - **Preprocessing Steps:**
   - Converted `.arff` to `.csv`
   - Merged related files 
-    ![converted](images/conversion.png)      ![merge](images/merge.png) 
+    ![converted](Images/conversion.png)      ![merge](Images/merge.png) 
 ---
 
 ##  Tools and Technologies
@@ -49,19 +49,19 @@ Traditional methods such as blacklists or manual reporting are often **reactive 
 1. **Data Cleaning:**
    - Removed missing and irrelevant values
    - Encoded categorical features numerically
-   ![cleaning](images/cleaning.png) 
+   ![cleaning](Images/cleaning.png) 
 2. **Exploratory Data Analysis (EDA):**
    - Identified key trends
    - Checked for class imbalance
-    ![EDA](images/eda.png) 
+    ![EDA](Images/eda.png) 
 3. **Model Training:**     
    - Applied classification algorithm (e.g., Decision Tree)
    - Evaluated using accuracy, precision, recall
-     ![training](images/training.png) 
+     ![training](Images/training.png) 
 4. **Power BI Dashboard:**
    - Visualized dataset structure
    - Displayed model insights and prediction results
-     ![dashboard](images/distribution.png) 
+     ![dashboard](Images/distribution.png) 
 ---
 
 ## 📊 Data Visualization
@@ -72,21 +72,21 @@ Power BI was used to create an **interactive dashboard** showing:
 - Feature importance
 - Confusion matrix of model performance
 - URL patterns with high correlation to phishing
- ![dashboard](images/distribution.png)  ![dashboard](images/perfomance.png)  ![dashboard](images/urlfeatures.png)  ![dashboard](images/interactive.png) 
+ ![dashboard](Images/distribution.png)  ![dashboard](Images/perfomance.png)  ![dashboard](Images/urlfeatures.png)  ![dashboard](Images/interactive.png) 
 ---
 
 
 ### 🔹 Feature Insights  
 *Highlights the most influential features for phishing detection, such as abnormal URLs and SSL state.*
 
-![dashboard](images/urlfeatures.png)
+![dashboard](Images/urlfeatures.png)
 
 ---
 
 ### 🔹 Confusion Matrix  
 *Displays true positives, false positives, and overall model performance.*
 
-![Confusion Matrix](images/perfomance.png)
+![Confusion Matrix](Images/perfomance.png)
 
 ---
 
@@ -98,7 +98,7 @@ The model was evaluated using:
 - **Confusion Matrix:** Distribution of TP, TN, FP, FN
 - **Precision:** How many predicted phishing sites were actually phishing
 - **Recall:** How many actual phishing sites were detected
-  ![dashboard](images/confusionmatrix.png)
+  ![dashboard](Images/confusionmatrix.png)
 
 >  The model performed well with **high recall and low false positive rate**, making it suitable for real-world deployment.
 
