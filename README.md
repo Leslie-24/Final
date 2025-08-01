@@ -64,7 +64,7 @@ Traditional methods such as blacklists or manual reporting are often **reactive 
      ![dashboard](Images/distribution.png) 
 ---
 
-## 📊 Data Visualization
+##  Data Visualization
 
 Power BI was used to create an **interactive dashboard** showing:
 
@@ -129,17 +129,6 @@ The model was evaluated using:
 - Apply **Natural Language Processing (NLP)** to webpage text content
 - Explore **ensemble models** like Random Forest and XGBoost
 - Build a **real-time Power BI dashboard** with live threat monitoring
-
----
-
-##  Project Files
-
-| File                         | Description                             |
-|------------------------------|-----------------------------------------|
-| `Bigdata final project.pbix` | Power BI dashboard with all visuals     |
-| `phishing_predictions.csv`   | Cleaned dataset used for modeling       |
-| `phishing websites.py`       | (Optional) Python code for training     |
-| `README.md`                  | This documentation file                 |
 
 ---
 
